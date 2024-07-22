@@ -17,3 +17,11 @@ git push -u origin main
 
 # 온라인 레포지토리 내려받기 (최초에)
 = 집에서 하려면 코드 복사 후 git 폴더 만들어서 cmd에서 >git clone https://github.com/sausageen/GitStudy.git 입력
+
++) 업데이트 저장하기
+>git status                       변경(업데이트) 확인 : 빨간 글씨
+>git add .                        변경 추가
+>git status                       변경 추가 확인 : 초록 글씨
+>git commit -m "update"   업데이트 이름(제목) 표시 하기
+>git status                       업데이트 이름 확인하기
+>git push -u origin main    github에 올리기
