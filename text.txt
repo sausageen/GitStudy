@@ -1,0 +1,19 @@
+# 저장소 등록
+git init
+echo "Hello Git!" > README.md
+git commit -m "첫 커밋"
+
+# 깃 상태 체크
+git status
+
+# 메인브랜치 변경
+git config --global init.defaultBranch main
+git branch -m master main
+git branch
+
+# 온라인 저장소 연결
+git remote add origin https://github.com/sausageen/GitStudy.git
+git push -u origin main
+
+# 온라인 레포지토리 내려받기 (최초에)
+= 집에서 하려면 코드 복사 후 git 폴더 만들어서 cmd에서 >git clone https://github.com/sausageen/GitStudy.git 입력
