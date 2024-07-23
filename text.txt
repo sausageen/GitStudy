@@ -25,3 +25,5 @@ git push -u origin main
 >git commit -m "update"   업데이트 이름(제목) 표시 하기
 >git status                       업데이트 이름 확인하기
 >git push -u origin main    github에 올리기
+
+text 파일 수정
